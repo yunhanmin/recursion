@@ -1,0 +1,21 @@
+// RecursionOne.java
+
+public class RecusionOne {
+  
+  public static void main ( String[] args ) {
+    
+    inception(5);
+    
+  } // End main method
+  
+  public static void inception( int n ) {
+    
+    inf( n > 0) {
+    System.out.println( "Welcome to the dream world" );
+    inception ( n-1 );
+    } else {
+      System.out.println( "Wake Up" );
+    }
+  } // End inception
+  
+} // End RecursionOne
